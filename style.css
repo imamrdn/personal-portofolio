@@ -22,9 +22,32 @@ a {
 }
 
 .welcome   {
-    padding: 8em 0 ;
+    padding: 9.1em 0 ;
     width: 70%;
     margin: auto;
     font-size: 1.7em;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+}
+
+#projects   {
+    padding: 5em 0;
+}
+
+.projects-tile    {
+    display: flex;
+    align-items: center;
+    
+}
+
+img {
+    width: 80%;
+}
+
+.title { 
+    text-align: center;
 }
 /* media query */
