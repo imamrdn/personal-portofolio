@@ -7,13 +7,20 @@
 }
 
 #navbar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: grey;
+}
+
+ul  {
     float: right;
-    margin: 2em;
+    padding: 2em;
 }
 
 li{
     display: inline;
-    padding: 1em;
+    padding: 0 1em;
 }
 
 a {
@@ -38,7 +45,7 @@ hr {
     padding: 7em 0;
 }
 
-div.projects-tile    {
+div.project-tile    {
     display: flex;
     align-items: center;
     
@@ -75,4 +82,17 @@ img {
     padding: 0.8em 0.2em;
 }
 
-/* media query */
+@media screen and (max-width: 1000px)   {
+    section #projects{
+        width: 80%;
+        margin: auto;
+    }
+    
+    div.project-tile {
+        flex-direction: column;
+    }
+
+    div.project {
+        margin: 1em;
+    }
+}
